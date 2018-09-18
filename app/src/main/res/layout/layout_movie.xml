@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="5dp"
+    app:layout_goneMarginTop="5dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginLeft="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/putih"
+        android:padding="5dp">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/ic_launcher_background"
+            android:id="@+id/imgNowPlaying"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/imgNowPlaying"
+            android:text="Judul"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/tvJudulNowPlaying"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="deskripsi"
+            android:layout_below="@+id/tvJudulNowPlaying"
+            android:layout_toRightOf="@+id/imgNowPlaying"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/tvDesNowPlaying"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tgl"
+            android:layout_below="@+id/tvDesNowPlaying"
+            android:layout_toRightOf="@+id/imgNowPlaying"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/tvTglNowPlaying"/>
+
+        <Button
+            android:layout_width="75dp"
+            android:layout_height="40dp"
+            android:layout_toRightOf="@id/imgNowPlaying"
+            android:layout_below="@+id/tvTglNowPlaying"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="5dp"
+            android:text="@string/detail"
+            android:background="@color/colorAccent"
+            android:textColor="@color/putih"
+            android:id="@+id/btndetailNowPlaying"/>
+
+        <Button
+            android:layout_width="75dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/tvTglNowPlaying"
+            android:layout_toRightOf="@+id/btndetailNowPlaying"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:text="@string/share"
+            android:background="@color/colorAccent"
+            android:textColor="@color/putih"
+            android:id="@+id/btnShare"
+            android:layout_marginBottom="5dp"/>
+    </RelativeLayout>
+</RelativeLayout>

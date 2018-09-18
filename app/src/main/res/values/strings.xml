@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Project4</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="home">Home</string>
+    <string name="search">Search</string>
+    <string name="favourite">Favourite</string>
+    <string name="setting">Setting</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="cari_film_nih">Judul Film</string>
+    <string name="nyari">Search</string>
+    <string name="title_gan">Title</string>
+    <string name="deskripsi">Overall</string>
+    <string name="tanggal">Date of Release</string>
+    <string name="rating">Rating</string>
+    <string name="detail">DETAIL</string>
+    <string name="share">SHARE</string>
+    <string name="play_now">PLAY NOW</string>
+    <string name="upcoming">UPCOMING</string>
+    <string name="title_activity_beranda">BerandaActivity</string>
+    <string name="release_date">Release Date</string>
+    <string name="overview">Overview</string>
+    <string name="popularity">Popularity</string>
+    <string name="hapus">Hapus</string>
+</resources>
