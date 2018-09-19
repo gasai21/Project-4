@@ -31,9 +31,9 @@
         <activity android:name=".DetailActivity" />
 
         <provider
-            android:name=".provider.MovieProvider"
             android:authorities="com.example.pangling.project4"
-            android:exported="false"
+            android:name=".provider.MovieProvider"
+            android:exported="true"
             android:readPermission="com.example.pangling.project4.READ_DATABASE"
             android:writePermission="com.example.pangling.project4.WRITE_DATABASE" />
 

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Project4</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Pengaturan</string>
+    <string name="home">Beranda</string>
+    <string name="search">Mencari</string>
+    <string name="favourite">Favorit</string>
+    <string name="setting">Pengaturan</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="cari_film_nih">Judul Film</string>
+    <string name="nyari">Mencari</string>
+    <string name="title_gan">Juduk</string>
+    <string name="deskripsi">Ringkasan</string>
+    <string name="tanggal">Tanggal Rilis</string>
+    <string name="rating">Rating</string>
+    <string name="detail">DETAIL</string>
+    <string name="share">SHARE</string>
+    <string name="play_now">PUTAR</string>
+    <string name="upcoming">UPCOMING</string>
+    <string name="title_activity_beranda">BerandaActivity</string>
+    <string name="release_date">Tanggal Rilis</string>
+    <string name="overview">Ringkasan</string>
+    <string name="popularity">Populer</string>
+    <string name="hapus">Hapus</string>
+</resources>

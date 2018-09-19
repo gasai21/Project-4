@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MoviesApp</string>
+    <string name="cari_film_nih">Judul Film</string>
+    <string name="nyari">Search</string>
+    <string name="title_gan">Title</string>
+    <string name="deskripsi">Overall</string>
+    <string name="tanggal">Date of Release</string>
+    <string name="rating">Rating</string>
+    <string name="detail">DETAIL</string>
+    <string name="share">SHARE</string>
+    <string name="play_now">PLAY NOW</string>
+    <string name="upcoming">UPCOMING</string>
+    <string name="title_activity_beranda">BerandaActivity</string>
+    <string name="release_date">Release Date</string>
+    <string name="overview">Overview</string>
+    <string name="popularity">Popularity</string>
+    <string name="hapus">Hapus</string>
+    <string name="settings">settings</string>
+</resources>
